@@ -1,5 +1,3 @@
-# Zodiac-sign-program
-
 # Matthew and Ethan Pair Programming 3a
 
 What is Pair Programming
