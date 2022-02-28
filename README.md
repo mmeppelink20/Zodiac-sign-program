@@ -9,17 +9,29 @@ The Challenge
 In this activity, you and your partner are going to write a program that will allow a user to input their date of birth and print their zodiac sign. The month variable must be a String ("January", "February", etc.) and a day variable must be an int (1, 2, etc.). 
 
 Zodiac Sign	Dates of Birth
+
 Aries	March 21-April 19
+
 Taurus	April 20-May 20
+
 Gemini	May 21-June 20
+
 Cancer	June 21-July 22
+
 Leo	July 23-August 22
+
 Virgo	August 23-September 22
+
 Libra	September 23-October 22
+
 Scorpio	October 23-November 21
+
 Sagittarius	November 22-December 21
+
 Capricorn	December 22-January 19
+
 Aquarius	January 20-February 18
+
 Pisces	February 19-March 20
 
 Sample Run:
