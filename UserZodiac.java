@@ -3,9 +3,10 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.Scanner;
 
+// user inputs their birth date to find their zodiac sign.
 public class UserZodiac {
 	public static void main(String[] args) {
-		ZodiacSign test = new ZodiacSign();
+
 		Scanner scnr = new Scanner(System.in);
 
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM d, yyyy");
@@ -18,7 +19,7 @@ public class UserZodiac {
 				String birthday = scnr.nextLine() + ", 2000";
 				LocalDate yourBirthday = LocalDate.parse(birthday, formatter);
 				
-				test.whatIsYourZodiacSign(formatter, yourBirthday);
+				ZodiacSign.whatIsYourZodiacSign(formatter, yourBirthday);
 				
 				break;
 			} catch (DateTimeParseException e) {
