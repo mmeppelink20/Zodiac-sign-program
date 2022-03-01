@@ -1,9 +1,10 @@
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
+// determines the zodiac sign for an input birth date
 public class ZodiacSign {
 
-	public void whatIsYourZodiacSign(DateTimeFormatter formatter, LocalDate yourBirthday ) {
+	public static void whatIsYourZodiacSign(DateTimeFormatter formatter, LocalDate yourBirthday ) {
 
 			LocalDate ariesStart = LocalDate.parse("March 20, 2000", formatter);
 			LocalDate ariesEnd = LocalDate.parse("April 20, 2000", formatter);
